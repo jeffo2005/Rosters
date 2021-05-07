@@ -1,14 +1,14 @@
 {
     "gameAttributes": [
-        { "key": "numGamesPlayoffSeries", "value": [7, 7, 7, 7, 7] },
-        { "key": "numPlayoffByes", "value": 6 },
+        { "key": "numGamesPlayoffSeries", "value": [1, 1, 1] },
+        { "key": "numPlayoffByes", "value": 0 },
         {
             "key": "confs",
-            "value": [{ "cid": 0, "name": "Africa" }]
+            "value": [{ "cid": 0, "name": "Basketball Africa League" }]
         },
         {
             "key": "divs",
-            "value": [{ "did": 0, "cid": 0, "name": "Countries" }]
+            "value": [{ "did": 0, "cid": 0, "name": "Teams" }]
         },
         {
             "key": "playerBioInfo",
@@ -76,7 +76,7 @@
                     "Cape Verde": 1,
                     "Central African Republic": 1,
                     "Chad": 1,
-                    "Congo": 2,
+                    "Congo": 4,
                     "Egypt": 3,
                     "Gabon": 1,
                     "Ghana": 1,
@@ -88,11 +88,11 @@
                     "Mali": 1,
                     "Morocco": 3,
                     "Mozambique": 10,
-                    "Nigeria": 4,
+                    "Nigeria": 6,
                     "Senegal": 3,
-                    "South Africa": 2,
-                    "South Sudan": 1,
-                    "Sudan": 2
+                    "South Africa": 4,
+                    "South Sudan": 6,
+                    "Sudan": 6
                 }
             }
         }
@@ -103,8 +103,8 @@
             "cid": 0,
             "did": 0,
             "region": "Algeria",
-            "name": "Algiers",
-            "abbrev": "AL",
+            "name": "GS Pétroliers",
+            "abbrev": "ALG",
             "pop": 43,
             "imgURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Flag_of_Algeria.svg/480px-Flag_of_Algeria.svg.png"
         },
@@ -113,8 +113,8 @@
             "cid": 0,
             "did": 0,
             "region": "Angola",
-            "name": "Luanda",
-            "abbrev": "AN",
+            "name": "Petro de Luanda",
+            "abbrev": "ANG",
             "pop": 24.383,
             "imgURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Flag_of_Angola.svg/480px-Flag_of_Angola.svg.png"
         },
@@ -163,7 +163,7 @@
             "cid": 0,
             "did": 0,
             "region": "Cameroon",
-            "name": "Yaounde",
+            "name": "Forces Armées et Police Basketball",
             "abbrev": "CR",
             "pop": 21.917,
             "imgURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Flag_of_Cameroon.svg/480px-Flag_of_Cameroon.svg.png"
@@ -233,7 +233,7 @@
             "cid": 0,
             "did": 0,
             "region": "Egypt",
-            "name": "Cairo",
+            "name": "Zamalek",
             "abbrev": "EG",
             "pop": 1.222,
             "imgURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Egypt.svg/480px-Flag_of_Egypt.svg.png"
@@ -373,7 +373,7 @@
             "cid": 0,
             "did": 0,
             "region": "Madagascar",
-            "name": "Antananarivo",
+            "name": "Gendarmerie Nationale Basketball CLub",
             "abbrev": "MD",
             "pop": 22.434,
             "imgURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Madagascar.svg/480px-Flag_of_Madagascar.svg.png"
@@ -393,7 +393,7 @@
             "cid": 0,
             "did": 0,
             "region": "Mali",
-            "name": "Bamako",
+            "name": "AS Police",
             "abbrev": "ML",
             "pop": 14.528,
             "imgURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Flag_of_Mali.svg/480px-Flag_of_Mali.svg.png"
@@ -423,7 +423,7 @@
             "cid": 0,
             "did": 0,
             "region": "Morocco",
-            "name": "Rabat",
+            "name": "AS Salé",
             "abbrev": "MR",
             "pop": 35.795,
             "imgURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Flag_of_Morocco.svg/480px-Flag_of_Morocco.svg.png"
@@ -433,7 +433,7 @@
             "cid": 0,
             "did": 0,
             "region": "Mozambique",
-            "name": "Maputo",
+            "name": "Ferroviàrio de Maputo",
             "abbrev": "MZ",
             "pop": 28.013,
             "imgURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Flag_of_Mozambique.svg/480px-Flag_of_Mozambique.svg.png"
@@ -463,8 +463,8 @@
             "cid": 0,
             "did": 0,
             "region": "Nigeria",
-            "name": "Abuja",
-            "abbrev": "NI",
+            "name": "Rivers Hoopers",
+            "abbrev": "NGA",
             "pop": 200.963,
             "imgURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Flag_of_Nigeria.svg/480px-Flag_of_Nigeria.svg.png"
         },
@@ -473,7 +473,7 @@
             "cid": 0,
             "did": 0,
             "region": "Rwanda",
-            "name": "Kigali",
+            "name": "Patriots",
             "abbrev": "RW",
             "pop": 10.515,
             "imgURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Flag_of_Rwanda.svg/480px-Flag_of_Rwanda.svg.png"
@@ -493,7 +493,7 @@
             "cid": 0,
             "did": 0,
             "region": "Senegal",
-            "name": "Dakar",
+            "name": "AS Douanes",
             "abbrev": "SN",
             "pop": 14.354,
             "imgURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Flag_of_Senegal.svg/480px-Flag_of_Senegal.svg.png"
@@ -573,7 +573,7 @@
             "cid": 0,
             "did": 0,
             "region": "Tunisia",
-            "name": "Tunis",
+            "name": "US Monastir",
             "abbrev": "TN",
             "pop": 10.982,
             "imgURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Tunisia.svg/480px-Flag_of_Tunisia.svg.png"
